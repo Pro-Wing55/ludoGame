@@ -1,0 +1,97 @@
+#board {
+  margin: 30px auto;
+  width: 320px;
+  height: 320px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  border: 3px solid #333;
+}
+
+
+#board div {
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.token {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.token.red { background-color: red;  width: 20px;height: 20px;}
+.token.green { background-color: green; }
+.token.blue { background-color: blue; }
+.token.yellow { background-color: yellow; }
+
+
+
+.actualBoard{
+/*   margin: 30px auto; */
+  width: 350px;
+  height: 350px;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+  border: 3px solid #333;
+}
+
+
+#actualBoardId div {
+ border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#actualBoardId .red {
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+   border: 3px solid #333;
+  font-weight: bold;
+}
+#actualBoardId .blue {
+border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+#actualBoardId .green {
+border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+#actualBoardId .yellow {
+border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+
+
+/* ------------------ for text-------------------------- */
+
+#rollDice{
+	width: 80px;
+	height: 40px;
+}
+#diceValue{
+	margin-left: 150px;
+	margin-top: -20px;
+}
+/* ------------------ for text-------------------------- */
+
